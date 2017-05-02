@@ -1,6 +1,6 @@
 const Speech = require('../index')
 
-const api = new Speech(process.env.speeh_token)
+const api = new Speech(process.env.speech_token)
 
 api.speech({
   filename: 'example',

@@ -13,7 +13,7 @@ $ npm i yaspeech --save
 ```javascript
 const Speech = require('yaspeech')
 
-const api = new Speech(process.env.speeh_token)
+const api = new Speech(process.env.speech_token)
 
 api.speech({
   filename: 'example',
