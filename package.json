@@ -1,0 +1,29 @@
+{
+  "name": "yaspeech",
+  "version": "0.0.1",
+  "description": "Module for Yandex Speech API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node example/simple.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bifot/yaspeech.git"
+  },
+  "keywords": [
+    "speech",
+    "yandex",
+    "api",
+    "voice"
+  ],
+  "author": "Mikhail Semin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bifot/yaspeech/issues"
+  },
+  "homepage": "https://github.com/bifot/yaspeech#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "request": "^2.81.0"
+  }
+}
